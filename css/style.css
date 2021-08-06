@@ -1,0 +1,99 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family:'Open Sans',sans-serif;
+}
+h1,button{
+    font-family:'Poppins',sans-serif;
+    font-weight: 600;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ul{
+    list-style-type: none;
+}
+header{
+    background: url('/images/bg-hero-desktop.svg');
+    background-color: hsl(193, 100%, 96%);
+    padding:40px 60px ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 35px;
+}
+.btn{
+    padding: 15px 60px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 3px 16px  rgba(0,0,0,0.12);
+}
+.build-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px  0px 20px;
+}
+.build{
+    width: 45%;
+}
+.illus{
+    width: 55%;
+}
+.build h1{
+    font-size: 42px;
+    padding-right: 40px;
+    margin: 25px 0px;
+
+}
+.build p{
+    padding-right: 40px;
+    margin: 25px 0px;
+}
+.build button{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    padding: 15px 70px;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 80px 40px;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 10px 50px 65px;
+    box-shadow: 0 3px 16px  rgba(0,0,0,0.12);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.service img{
+    max-width: 100%;
+    width: 520px;
+    padding: 15px  80px 15px 60px;
+}
+.content{
+    padding-left: 70px;
+}
+.content{
+    margin: 10px 0px;
+}
+.content p{
+    width: 75%;
+}
