@@ -40,6 +40,7 @@ nav img{
     border-radius: 25px;
     box-shadow: 0 3px 16px  rgba(0,0,0,0.12);
 }
+
 .build-sec{
     display: flex;
     justify-content: center;
@@ -61,6 +62,7 @@ nav img{
 .build p{
     padding-right: 40px;
     margin: 25px 0px;
+    color: hsl(208, 11%, 55%)
 }
 .build button{
     background-color: hsl(322, 100%, 66%);
@@ -95,5 +97,12 @@ nav img{
     margin: 10px 0px;
 }
 .content p{
-    width: 75%;
+    width: 93%;
+    color: hsl(208, 11%, 55%);
+}
+.left{
+    margin-right: 0px;
+}
+.left p{
+    width: 100%
 }
