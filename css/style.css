@@ -95,5 +95,80 @@ nav img{
     margin: 10px 0px;
 }
 .content p{
-    width: 75%;
+    width: 93%;
+    color: hsl(208, 11%, 55%);
+}
+.left{
+    margin-right: 0px;
+}
+.left p{
+    width: 100%
+}
+.promo{
+    position: relative;
+    max-width: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #fff;
+    padding: 60px 0px;
+    box-shadow: 0 3px 16px  rgba(0,0,0,0.12);
+    border-radius: 10px;
+    margin-bottom: -105px;
+}
+.promo h1{
+    margin-bottom: 15px;
+}
+.btn2{
+    margin-top: 20px;
+    padding: 24px 100px;
+    border-radius: 40px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+    padding: 200px 100px 30px;
+}
+.footer-logo{
+    width: 250px;
+}
+.footer-sec{
+    display: flex;
+    margin: 40px 0px;
+}
+.sec-1{
+    min-width: 40%;
+    width: 40%;
+
+}
+.add{
+  display: flex;
+  align-items: flex-start;  
+}
+.add img{
+    margin-top: 4px;
+    margin-right: 20px;
+}
+li{
+    margin-bottom: 20px;
+    padding-right: 60px;
+    opacity: 0.9;
+}
+.sec-2,
+.sec-3,
+.sec-4{
+    width: 20%;
+    margin-left: 30px;
+}
+.social{
+    display: flex;
+    padding: 0;
 }
